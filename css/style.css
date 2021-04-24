@@ -6,3 +6,21 @@ nav img {
   background-color: #00aa8a;
   color: #ffffff;
 }
+
+.messaging-btn{
+  background-color: #FF7E61;
+  
+}
+.voice-btn{
+  background-color: #00AA8A;
+  
+}
+
+.messaging-btn span{
+  color: aliceblue;
+  font-family: 'Questrial', sans-serif;
+}
+.voice-btn span{
+  color: aliceblue;
+  font-family: 'Questrial', sans-serif;
+}

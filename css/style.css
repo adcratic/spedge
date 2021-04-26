@@ -7,21 +7,25 @@ nav img {
   color: #ffffff;
 }
 
-.messaging-btn{
-  background-color: #FF7E61;
-  
+.messaging-btn {
+  background-color: #ff7e61;
 }
-.voice-btn{
-  background-color: #00AA8A;
-  
+.voice-btn {
+  background-color: #00aa8a;
 }
 
-.messaging-btn span{
+.messaging-btn span {
   color: aliceblue;
-  font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
 }
-.voice-btn span{
+.voice-btn span {
   color: aliceblue;
-  font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
 }
 
+.messaging-btn:hover {
+}
+
+.card-img-top {
+  width: 10%;
+}

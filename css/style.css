@@ -1,6 +1,55 @@
 nav img {
   width: 200px;
 }
+#navbarNavAltMarkup a{
+  color: #242931;
+}
+#navbarNavAltMarkup a:hover {
+color: #FF7E61;
+}
+#button a:hover{
+  color: #00aa8a;
+  border-color: #00aa8a;
+}
+.lead {
+  font: normal normal normal 45px/46px Questrial; 
+  color: #242931;
+  opacity: 1; 
+  letter-spacing: 0px
+}
+.subheading{
+  font: normal normal normal 22px/23px Questrial;
+letter-spacing: 6.6px;
+color: #FF7E61;
+opacity: 1;
+}
+.subtext{
+  font: normal normal normal 30px/50px Questrial;
+letter-spacing: 0px;
+color: #242931;
+opacity: 1;
+}
+.lasth{
+  font: normal normal normal 55px/57px Questrial;
+letter-spacing: 0px;
+color: #242931;
+opacity: 1;
+}
+#btn1{
+  color: #fff;
+   background-color:#FF7E61;
+  
+}
+#btn2{
+  background-color: white;
+}
+#btn1:hover{
+  background-color: #00aa8a;
+}
+#btn2:hover{
+  color: #00aa8a;
+  border-color: #00aa8a;
+}
 
 #spedge-footer {
   background-color: #ff7e61;

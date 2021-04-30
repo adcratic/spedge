@@ -67,18 +67,17 @@ input[type=text], select, textarea {
   margin-bottom: 16px; 
   resize: vertical;
 }
-#container {
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background-color: #f2f2f2;
-  justify-content: start;
+
+.container-fluid{
+ padding: 4% 4% 5% 5%;
+  max-width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .formMargin{
-  margin-left: 0%;
+  margin-left: 10%;
   margin-right: 10%;
   padding-left: 10%;
   margin-right: 18%;
-  justify-content: :start;
 }
 
 .formHeading{

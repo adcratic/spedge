@@ -55,6 +55,7 @@ opacity: 1;
                  <!--contact page css -->
 #form{
   display: inline block;
+  justify-content: :start;
 }
 input[type=text], select, textarea {
   width: 80%; 
@@ -70,12 +71,14 @@ input[type=text], select, textarea {
   padding-top: 4%;
   padding-bottom: 4%;
   background-color: #f2f2f2;
+  justify-content: start;
 }
 .formMargin{
-  margin-left: 10%;
+  margin-left: 0%;
   margin-right: 10%;
   padding-left: 10%;
   margin-right: 18%;
+  justify-content: :start;
 }
 
 .formHeading{

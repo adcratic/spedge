@@ -13,7 +13,7 @@ color: #FF7E61;
 }         
               /* company page css */
 .lead {
-  font: normal normal normal 45px/46px Questrial; 
+  font: normal normal normal 22px/23px Questrial; 
   color: #242931;
   opacity: 1; 
   letter-spacing: 0px
@@ -70,7 +70,7 @@ input[type=text], select, textarea {
 
 .container-fluid{
  padding: 4% 4% 5% 5%;
-  max-width: 60%;
+  max-width: 70%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .formMargin{

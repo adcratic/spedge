@@ -1,86 +1,86 @@
 nav img {
   width: 200px;
 }
-#navbarNavAltMarkup a{
+#navbarNavAltMarkup a {
   color: #242931;
 }
 #navbarNavAltMarkup a:hover {
-color: #FF7E61;
+  color: #ff7e61;
 }
-#button a:hover{
+#button a:hover {
   color: #00aa8a;
   border-color: #00aa8a;
-}         
-              /* company page css */
+}
+/* company page css */
 .lead {
-  font: normal normal normal 22px/23px Questrial; 
-  color: #242931;
-  opacity: 1; 
-  
-}
-.subheading{
   font: normal normal normal 22px/23px Questrial;
-letter-spacing: 6.6px;
-color: #FF7E61;
-opacity: 1;
+  color: #242931;
+  opacity: 1;
 }
-.subtext{
+.subheading {
+  font: normal normal normal 22px/23px Questrial;
+  letter-spacing: 6.6px;
+  color: #ff7e61;
+  opacity: 1;
+}
+.subtext {
   font: normal normal normal 30px/50px Questrial;
-letter-spacing: 0px;
-color: #242931;
-opacity: 1;
+  letter-spacing: 0px;
+  color: #242931;
+  opacity: 1;
 }
-.lasth{
+.lasth {
   font: normal normal normal 55px/57px Questrial;
-letter-spacing: 0px;
-color: #242931;
-opacity: 1;
+  letter-spacing: 0px;
+  color: #242931;
+  opacity: 1;
 }
-#btn1{
+#btn1 {
   color: #fff;
-   background-color:#FF7E61;
-  
+  background-color: #ff7e61;
 }
-#btn2{
+#btn2 {
   background-color: white;
 }
-#btn1:hover{
+#btn1:hover {
   background-color: #00aa8a;
 }
-#btn2:hover{
+#btn2:hover {
   color: #00aa8a;
   border-color: #00aa8a;
-}              /*company page css completed */
+} /*company page css completed */
 
-                 /*contact page css */
-#form{
+/*contact page css */
+#form {
   display: inline block;
-  justify-content: :start;
+  justify-content: start;
 }
-input[type=text], select, textarea {
-  width: 80%; 
-  padding: 12px; 
+input[type="text"],
+select,
+textarea {
+  width: 80%;
+  padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px; 
+  border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px; 
-  margin-bottom: 16px; 
+  margin-top: 6px;
+  margin-bottom: 16px;
   resize: vertical;
 }
 
-.container-md{
- padding: 4% 4% 5% 5%;
+.container-md {
+  padding: 4% 4% 5% 5%;
   max-width: 70%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.formMargin{
+.formMargin {
   margin-left: 10%;
   margin-right: 10%;
   padding-left: 10%;
   margin-right: 18%;
 }
 
-.formHeading{
+.formHeading {
   text-align: left;
   font: normal normal normal 55px/58px Questrial;
   letter-spacing: 0px;
@@ -88,7 +88,7 @@ input[type=text], select, textarea {
   padding-left: 3%;
 }
 
-.formBelHeading{
+.formBelHeading {
   text-align: left;
   font: normal normal normal 20px/20px Questrial;
   letter-spacing: 0px;
@@ -102,9 +102,7 @@ input[type=text], select, textarea {
   letter-spacing: 0px;
   color: #242931;
   padding-left: 3%;
-}*/              /* contact page css completed */
-
-
+}*/ /* contact page css completed */
 
 #spedge-footer {
   background-color: #ff7e61;

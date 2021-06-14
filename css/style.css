@@ -11,6 +11,9 @@ nav img {
   color: #00aa8a;
   border-color: #00aa8a;
 }
+.nav-item{
+  margin: 0 0 10px 0;
+}
 /* company page css */
 .lead {
   font: normal normal normal 22px/23px Questrial;
@@ -136,3 +139,9 @@ textarea {
 .chl{
   box-shadow: 0px 2px 4px #ff7e61;
 }
+
+.displayed {
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto }

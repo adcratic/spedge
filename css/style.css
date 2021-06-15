@@ -11,8 +11,15 @@ nav img {
   color: #00aa8a;
   border-color: #00aa8a;
 }
-.nav-item{
-  margin: 0 0 10px 0;
+img.displayed{
+  text-align: center;
+}
+#lastb{
+  background-color: #ff7e61;
+  border: none;
+}
+#lastb:hover {
+  background-color:  #00AA8A;
 }
 /* company page css */
 .lead {

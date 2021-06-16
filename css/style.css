@@ -48,6 +48,7 @@ img.displayed{
 #btn1 {
   color: #fff;
   background-color: #ff7e61;
+  border: none;
 }
 #btn2 {
   background-color: white;

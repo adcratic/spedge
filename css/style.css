@@ -11,6 +11,14 @@ nav img {
   color: #00aa8a;
   border-color: #00aa8a;
 }
+#navbtn a{
+  background-color:black; 
+  color: white;
+}
+#navbtn a:hover{
+  background-color:  #00aa8a;
+  color:white;
+}
 img.displayed{
   text-align: center;
 }

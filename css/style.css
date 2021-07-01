@@ -87,11 +87,10 @@ textarea {
   resize: vertical;
 }
 
-.container-md {
-  padding: 4% 4% 5% 5%;
-  max-width: 70%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+/* .featuresbox {
+  
+  box-shadow: 5px 0px 4px 0px rgba(0, 0, 0, 0.2);
+} */
 .formMargin {
   margin-left: 10%;
   margin-right: 10%;

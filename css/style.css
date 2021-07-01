@@ -131,7 +131,7 @@ textarea {
 
 #spedge-footer {
   background-color: #da6f29 ;
-  color: black;
+  
 }
 
 .messaging-btn {
@@ -167,3 +167,7 @@ textarea {
   justify-content: center;
   margin-left: auto;
   margin-right: auto }
+
+#fontfooter{
+  color: whitesmoke ;
+}

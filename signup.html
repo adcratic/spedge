@@ -20,12 +20,12 @@
         
         <div class="container mt-5">
             <div class="row mt-5">
-                <div class="col-md-4 mt-3">
-                    <a class=" navbar-brand img-fluid " href="index.html"><img src="assets/springedge_logo.png" alt=""></a> 
+                <div class="col-md-4 mt-5">
+                    <a class=" navbar-brand img-fluid mt-5 " href="index.html"><img src="assets/springedge_logo.png" alt=""></a> 
                     <!-- <div class="container">
                         <div class="h5 mt-4">With SpringEdge you get</div>
                     </div> -->
-                    <div class="container border-top pt-4 border-4  ">
+                    <div class="container border-top pt-4 border-4 mt-5  ">
 
     
                     <p><h5><img src="assets\icons\ok-21.png" alt=""> No monthly/yearly subscription <br>charges.</h5></p>
@@ -43,34 +43,40 @@
 
                 <div class="col-1 mt-5 "></div>
 
-              <div class="col-md-7 mt-5  ">
+              <div class="col-md-7 mt-5 mb-5 ">  
+                  <div class="h3  d-flex justify-content-center">Create your account</div>
                 <div class=" mt-5 border shadow rounded p-5">
                     <form method="POST" action="" id="signupform">
                         <div class="form">
                             <div class="row">
                         <div class="col-xs-6 col-md-6">
-                            <label>Name</label>
-                            <input type="text" name="name" class="form-control" placeholder="Your name *" required />     
+                            <label id="formfont">First Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="First Name *" required />     
                         </div>
                         <div class="col-xs-6 col-md-6">
-                            <label>E-mail address</label>
-                            <input class="form-control" name="lastname" placeholder="Your e-mail address *" type="text" required />
+                            <label id="formfont">Last Name</label>
+                            <input class="form-control" name="lastname" placeholder="Last Name *" type="text" required />
                         </div>
                     </div>
                     <div class="row">
                       <div class="col-xs-6 col-md-6">
-                          <label>Phone</label>
-                          <input class="form-control" name="firstname" placeholder="Your phone number *" type="text"
+                          <label id="formfont">Email</label>
+                          <input class="form-control" name="firstname" placeholder="Your E-mail *" type="text"
                               required  />
                       </div>
                       <div class="col-xs-6 col-md-6">
-                          <label>City</label>
-                          <input class="form-control" name="lastname" placeholder="Your city *" type="text" required />
+                          <label id="formfont">Mobile Number</label>
+                          <input class="form-control" name="lastname" placeholder="Your mobile number *" type="text" required />
                       </div>
-                  </div><br>
+                  </div>
+                  <div class="Counrt Code col-md-6">
+                    <label id="formfont">Country Code</label>
+                    <input class="form-control" name="lastname" placeholder="Your Country Code *" type="text" required />
+                </div>
                   <div class="row">
+
                     <div class="col-xs-12 col-md-12">
-                      <label class="formsmlHeading" for="subject">Demo sms account requirement</label>
+                      <label class="formsmlHeading mt-2" id="formfont" for="subject">Demo sms account requirement</label>
                       <textarea id="subject" name="subject" class="formsmlHeading" style="width: 90%;height: 200px;"
                        placeholder="Describe your sms account requirement. It will help us to understand your requirement better. *" ></textarea>
                        </div>

@@ -16,30 +16,31 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg   navbar-light bg-light shadow   p-3 mb-5 fixed-top">
+            <div class="container sticky-top">
                 <a class=" navbar-brand img-fluid" href="index.html"><img src="assets/springedge_logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class=" nav-link active" aria-current="page" href="messaging.html">Messaging</a>
+                <div class="collapse navbar-collapse mx-5  " id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-5  ">
+                        <a class=" nav-link active " aria-current="page" href="messaging.html">Messaging</a>
                         <a class="nav-link active" href="voice.html">Voice</a>
                         <a class="nav-link active" href="resources.html">Resources</a>
                         <a class="nav-link active" href="company.html">Company</a>
                     </div>
                     <div class="navbar-nav flex-row ms-md-auto" id="button">
                         <a href="signin.html" class="btn btn-secondary btn-lg" style="background-color:#fff; ">Sign In</a>
+                        <a href="signin.html" class="btn btn-secondary btn-lg mx-2" style="background-color:#fff; ">Sign Up</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row mt-5  align-items-center">
                 <div class="col-md-6">
                     <div class="div">
@@ -55,8 +56,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mt-5">
-                    <img src="assets/homepage.png" alt="" class="img-fluid mx-auto">
+                <div class="col-md-6 d-flex justify-content-end">
+                    <img src="assets/homepage.png" alt="" class="img-fluid mx-auto "width="400px" >
                 </div> 
             </div>
         </div>
@@ -119,9 +120,12 @@
         </section>
         <section>
             <div class="container mt-5">
-                <p class="lead mt-4 ms-3" style="color: #F9522C;">INTEGRATIONS</p>
+                
+
                 <div class="row d-flex justify-content-center">
+                    
                     <div class="col-lg-6 ps-4">
+                        <p class="lead mt-4 " style="color: #F9522C;">INTEGRATIONS</p>
                         <p class="h3" style="font: 50px/52px Questrial;">Do more within the platforms you already use</p><br>
                         <p style="font: 25px/26px Questrial;">SpringEdge integrates with the leading helpdesk 
                              software, e-commerce platforms<br> CRMs, and marketing

@@ -1,3 +1,7 @@
+body{
+  padding-top: 120px;
+}
+
 nav img {
   width: 200px;
 }
@@ -175,3 +179,4 @@ textarea {
 #formfont{
   font-weight: 700;
 }
+

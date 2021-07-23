@@ -184,8 +184,42 @@ textarea {
   font-weight: 700;
 }
 
-#pricing-card{
-  border-color: #FF7E61;
+#firstbulkc{
+  font-family:  "DroidSansRegular,Helvetica Neue", "Helvetica";
+  font-size: 14px;
+  color: #666;
+}
+#accordhead{
+  color:#666;
+  font-size: 17px;
+  font-family:  "Helvetica Neue", "Helvetica";
+  font-weight: bold;
+}
+#accorditem{
+  font-size: 15px;
+  font-weight: bold;
+  color: #666;
+  font-family:  "Helvetica Neue", "Helvetica";
+}
+.accordpara{
+  font-size: 14px;
+  color:#666;
+}
+#bulklasthead{
+  font-size: 17px;
+  font-weight: bold;
+  color: #666;
+  font-family:  "Helvetica Neue", "Helvetica";
 }
 
-
+#lastbulkdiff{
+  font-size: 13px;
+  
+  color: #666;
+  font-family:  "Helvetica Neue", "Helvetica";
+}
+#footerNavAltMarkup a {
+  color: #242931;
+  text-decoration: none;
+  
+}

@@ -184,12 +184,12 @@ textarea {
 }
 
 #firstbulkc{
-  font-family:  "DroidSansRegular,Helvetica Neue", "Helvetica";
-  font-size: 14px;
-  color: #666;
+  
+  font-size: 18px;
+  color: rgb(63, 60, 60);
 }
 #accordhead{
-  color:#666;
+  color:rgb(63, 60, 60);
   font-size: 17px;
   font-family:  "Helvetica Neue", "Helvetica";
   font-weight: bold;
@@ -197,25 +197,25 @@ textarea {
 #accorditem{
   font-size: 15px;
   font-weight: bold;
-  color: #666;
+  color:  rgb(63, 60, 60);
   font-family:  "Helvetica Neue", "Helvetica";
 }
 .accordpara{
   font-size: 14px;
-  color:#666;
+  color: rgb(63, 60, 60);
 }
 #bulklasthead{
   font-size: 17px;
   font-weight: bold;
-  color: #666;
-  font-family:  "Helvetica Neue", "Helvetica";
+  color:  rgb(63, 60, 60);
+  
 }
 
 #lastbulkdiff{
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(63, 60, 60);
   
-  color: #666;
-  font-family:  "Helvetica Neue", "Helvetica";
 }
 #footerNavAltMarkup a {
   color: #242931;

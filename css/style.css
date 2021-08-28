@@ -44,15 +44,14 @@ img.displayed{
   opacity: 1;
 }
 .subheading {
-  font: 20px/21px Questrial;
-  letter-spacing: 6.6px;
+  letter-spacing:0.2rem;
   color: #ff7e61;
   opacity: 1;
 }
 .subtext {
-  font: 20px/40px Questrial;
-  letter-spacing: 0px;
-  color: #242931;
+  font: 20px/30px Questrial;
+  
+  color: #666;
   opacity: 1;
 }
 .lasth {

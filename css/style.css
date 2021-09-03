@@ -212,8 +212,8 @@ textarea {
 }
 
 #lastbulkdiff{
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 17px;
+
   color: rgb(63, 60, 60);
   
 }
@@ -224,4 +224,32 @@ textarea {
 }
 #fontall{
   font-family: "Helvetica Neue", "Helvetica";
+}
+
+
+.input-form:focus{
+  
+  border-style: none;
+  outline: 2px solid rgba(218, 111, 41, 0.6);
+  transition: 10ms ease-in;
+  outline-offset: 1.1px;
+  box-shadow: none;
+}
+
+
+.navtabs:active{
+  background: #da6f29;
+  
+}
+
+.butnav{
+
+  
+
+}
+.butnav:focus{
+  border-color: #da6f29 !important;
+  background-color: #da6f29 !important;
+  outline: rgba(218, 111, 41, 0.6);
+  box-shadow: none;
 }

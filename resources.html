@@ -136,15 +136,17 @@
                               </li>
                               
                           </ul>
-                          <div class="tab-content col-md-6 " style="background-color:#00000029;;" id="pills-tabContent">
-                            <div class="tab-pane fade show active p-3" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                
+                          <div class="tab-content col-md-6 " style="background-color:#00000029; height: 335px;" id="pills-tabContent">
+                            <div class="tab-pane fade show active p-3 " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <div class="mt-2">
                                     curl http://web.springedge.com/api/web/send  \ <br>
                                     -F apikey=65ats54oxxxxxxxxxxxxxxxxxxxx \<br>
                                     -F sender=SEDEMO \<br>
                                     -F to=919020xxxxxx \<br>
                                     -F message=Hi, this is a test message \<br>
                                     -F format=json <br>
+                                </div>
+                                    
                                 
                             </div>
                             <div class="tab-pane fade p-3" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
@@ -176,7 +178,8 @@
                             </div>
 
                             <div class="tab-pane fade p-3" id="rubyy" role="tabpanel" aria-labelledby="pills-tab">
-                                message=URLEncoder.encode('Hi this is a test message', "UTF-8"); <br>
+                                <div class="mt-2">
+                                    message=URLEncoder.encode('Hi this is a test message', "UTF-8"); <br>
                                 baseurl = "http://web.springedge.com/api/web/send/?apikey=65axxxxxxxxxxxxx"; <br>
                                                       
                                 URL url = new URL(baseurl+"&amp;sender=SEDEMO&amp;to=919035xxxxxx&amp;message=Test+message"); <br>
@@ -187,6 +190,7 @@
                                 con.getOutputStream(); <br>
                                 con.getInputStream(); <br>
                                 BufferedReader rd; <br>
+                                </div>
                             </div>
 
                             <div class="tab-pane fade p-3" id="Java" role="tabpanel" aria-labelledby="pills-tab">
@@ -349,7 +353,7 @@
                     <ul class="navbar-nav" id="footerNavAltMarkup">
                         <li class="nav-item mt-1"><a href="messaging.html">2 Way messaging</a></li>
                         <li class="nav-item mt-1"><a href="bulk-sms-gateway.html">Bulk sms service</a></li>
-                        <li class="nav-item mt-1"><a href="code.html">Developer API</a></li>
+                        <li class="nav-item mt-1"><a href="resources.html">Developer API</a></li>
                         <li class="nav-item mt-1"><a href="resources.html">SMS Add-Ons</a></li>
                     </ul>
                 </div>

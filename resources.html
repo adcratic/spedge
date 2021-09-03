@@ -91,9 +91,9 @@
                 <div class="row">
                     <div class="col-md">
                         <h1 class="display-5" style="font: 40px/43px Questrial; text-decoration:double #F9522C;">Copy & Code</h1>
-                        <p style="text-align: justify;">We build our APIs to be simple to use, powerful in
+                        <p style="text-align:justify;">We build our APIs to be simple to use, powerful in
                           production, and endlessly
-                          scalable. Programmable sms makes it easy for developers to enable SMS notification feature
+                          scalable. <br> Programmable sms makes it easy for developers to enable SMS notification <br> feature
                           applications.
                         </p>
                         <p>Start with small api code into your application to enable power
@@ -101,159 +101,139 @@
                            sms
                            notifications. <br> Powerful SMS APIs to send text SMS effortlessly.</p>
                     </div>
-                    <div class="col-md-7  d-flex justify-content-end">
-                        <div class=" mt-5 ">
-                            <ul class="nav nav-tabs " id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="curl-tab" data-bs-toggle="tab" data-bs-target="#curl"
-                                        type="button" role="tab" aria-controls="home" aria-selected="true"
-                                        style="background-color: #FF7E61;">CURL</button>
-                                </li>
-                                <li class="nav-item " role="presentation">
-                                    <button class="nav-link" id="php-tab" data-bs-toggle="tab" data-bs-target="#php"
-                                        type="button" role="tab" aria-controls="profile" aria-selected="false"
-                                        style="background-color: #FF7E61;">PHP</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="python-tab" data-bs-toggle="tab" data-bs-target="#python"
-                                        type="button" role="tab" aria-controls="contact" aria-selected="false"
-                                        style="background-color: #FF7E61;">PYTHON</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="ruby-tab" data-bs-toggle="tab" data-bs-target="#ruby"
-                                        type="button" role="tab" aria-controls="contact" aria-selected="false"
-                                        style="background-color: #FF7E61;">RUBY</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="java-tab" data-bs-toggle="tab" data-bs-target="#java"
-                                        type="button" role="tab" aria-controls="contact" aria-selected="false"
-                                        style="background-color: #FF7E61;">JAVA</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="golang-tab" data-bs-toggle="tab" data-bs-target="#golang"
-                                        type="button" role="tab" aria-controls="contact" aria-selected="false"
-                                        style="background-color: #FF7E61;">GO LANG</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="nodejs-tab" data-bs-toggle="tab" data-bs-target="#nodejs"
-                                        type="button" role="tab" aria-controls="contact" aria-selected="false"
-                                        style="background-color: #FF7E61;">NODE JS</button>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent" style="background-color:#00000029;">
-                                <div class="tab-pane fade show active" id="curl" role="tabpanel" aria-labelledby="curl-tab">
-                                    <pre> 
-    curl http://web.springedge.com/api/web/send  \
-    -F apikey=65ats54oxxxxxxxxxxxxxxxxxxxx \
-    -F sender=SEDEMO \
-    -F to=919020xxxxxx \
-    -F message=Hi, this is a test message \
-    -F format=json
-                        </pre>
-                                </div>
-                                <div class="tab-pane fade" id="php" role="tabpanel" aria-labelledby="php-tab">
-                                    <pre>
 
-    $message = urlencode('Hi, this is a test message');
-    $sender = 'SEDEMO'; 
-    $apikey = '65ats54oxxxxxxxxxxxxxxxxxxxx';
-    $baseurl = 'http://web.springedge.com/api/web/send?apikey='.$apikey;
-    $url = $baseurl.'&sender='.$sender.'&to='.$mobileno.'&message='.$message;    
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_POST, false);
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    $response = curl_exec($ch);
-    curl_close($ch);
-                      </pre>
-                                </div>
-                                <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
-                                    <pre>                        
-    import requests
-                    
-    message = 'Hi+this+is+a+test+message'
-    mobileno= '919035xxxxxx'
-    sender = 'SEDEMO'
-    apikey = '65ats54oxxxxxxxxxxxxxxxxxxxx'
-                    
-    baseurl = 'http://web.springedge.com/api/web/send/?apikey='+apikey
-    url= baseurl+'&sender='+sender+'&to='+mobileno+'&message='+message+'&format=json'
-    response = requests.get(url)
-                    
-    print('Response:', response, 'request.')
+                   
+                </div>
+                <div class="row mt-4">
+                    <div class="col">
+                        <ul class="nav nav-pills mb-3  justify-content-between col-md-6"  id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="btn butnav active" style="background-color: none;" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">CURL</button>
+                            </li>
 
-</pre>
-                                </div>
-                                <div class="tab-pane fade" id="ruby" role="tabpanel" aria-labelledby="ruby-tab">
-                                    <pre>
+                            <li class="nav-item" role="presentation">
+                              <button class="btn butnav " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">PHP</button>
+                            </li>
 
-    require 'net/http'
-    message = URI::encode('Hi, this is a test message')
-    mobileno = '91903xxxxxxxx'
-    apikey = '65ats54oxxxxxxxxxxxxxxxxxxxx'
-    senderid = 'SEDEMO'
-    url = URI.parse(baseurl+'&amp;sender='+senderid+'&amp;to='+mobileno+'&amp;message='+message)
-    baseurl = 'http://web.springedge.com/api/web/send/?apikey='+apikey
-    res = Net::HTTP.start(url.host, url.port) {|http|
-    req = Net::HTTP::Get.new(url.to_s)
-    }
-    http.request(req)
-    puts res.body
-                        </pre>
-        
-                                </div>
-                                <div class="tab-pane fade" id="java" role="tabpanel" aria-labelledby="java-tab">
-                                    <pre>
+                            <li class="nav-item" role="presentation">
+                              <button class="btn butnav" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">PYTHON</button>
+                            </li>
 
-    message=URLEncoder.encode('Hi this is a test message', "UTF-8");
-    baseurl = "http://web.springedge.com/api/web/send/?apikey=65axxxxxxxxxxxxx";
-                          
-    URL url = new URL(baseurl+"&amp;sender=SEDEMO&amp;to=919035xxxxxx&amp;message=Test+message");
-                          
-    HttpURLConnection con = (HttpURLConnection) url.openConnection();
-    con.setRequestMethod("GET");
-    con.setDoOutput(true);
-    con.getOutputStream();
-    con.getInputStream();
-    BufferedReader rd;
-                              </pre>
-                                </div>
-                                <div class="tab-pane fade" id="golang" role="tabpanel" aria-labelledby="golang-tab">
-                                    <pre>
+                            <li class="nav-item" role="presentation">
+                                <button class="btn butnav" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#rubyy" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">RUBY</button>
+                              </li>
 
-    package main
-    import ( "net/http" "net/url" "fmt" "strings" )
-    func main() {
-    v := url.Values{}
-    v.Set("to","919035xxxx")
-    v.Set("apikey","API_KEY_HERE")
-    v.Set("sender","SEDEMO")
-    v.Set("message","Hello, this is a test sms")
-    rb := *strings.NewReader(v.Encode())
-    client := &amp;http.Client{}
-    req, _ := http.NewRequest("POST", "http://web.springedge.com/api/web/send/", &amp;rb)
-    resp, _ := client.Do(req)
-    }
-                              </pre>
-                                </div>
-                                <div class="tab-pane fade" id="nodejs" role="tabpanel" aria-labelledby="nodejs-tab">
-                                    <pre>
+                              <li class="nav-item" role="presentation">
+                                <button class="btn butnav" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#Java" type="button" role="tab" aria-controls="" aria-selected="false">JAVA</button>
+                              </li>
 
-    npm install springedge
-    var springedge = require('springedge');
-    var params = { 
-    'sender': 'SEDEMO', 'apikey': 'API_KEY_HERE', 'to': [ '9190xxxxxxxx'],
-    'message': 'Hi, this is a test message', 'format': 'json' };
-    springedge.messages.send(params, 5000, function (err, response) {
-    if (err) {
-    return console.log(err);
-    }
-    console.log(response);
-    });
-                        </pre>
-                                </div>
+                              <li class="nav-item" role="presentation">
+                                <button class="btn butnav" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#golang" type="button" role="tab" aria-controls="" aria-selected="false">GOLang</button>
+                              </li>
+
+                              <li class="nav-item" role="presentation">
+                                <button class="btn butnav" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#nodejs" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">NODEJS</button>
+                              </li>
+                              
+                          </ul>
+                          <div class="tab-content col-md-6 " style="background-color:#00000029;;" id="pills-tabContent">
+                            <div class="tab-pane fade show active p-3" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                
+                                    curl http://web.springedge.com/api/web/send  \ <br>
+                                    -F apikey=65ats54oxxxxxxxxxxxxxxxxxxxx \<br>
+                                    -F sender=SEDEMO \<br>
+                                    -F to=919020xxxxxx \<br>
+                                    -F message=Hi, this is a test message \<br>
+                                    -F format=json <br>
+                                
                             </div>
-                        </div><br>
+                            <div class="tab-pane fade p-3" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                $message = urlencode('Hi, this is a test message');<br>
+                                $sender = 'SEDEMO'; <br>
+                                $apikey = '65ats54oxxxxxxxxxxxxxxxxxxxx'; <br>
+                                $baseurl = 'http://web.springedge.com/api/web/send?apikey='.$apikey; <br>
+                                $url = $baseurl.'&sender='.$sender.'&to='.$mobileno.'&message='.$message;  <br>   
+                                $ch = curl_init(); <br>
+                                curl_setopt($ch, CURLOPT_POST, false); <br>
+                                curl_setopt($ch, CURLOPT_URL, $url); <br>
+                                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); <br>
+                                $response = curl_exec($ch); <br>
+                                curl_close($ch); <br>
+                            </div>
+                            <div class="tab-pane fade p-3" id="pills-contact" role="tabpanel" aria-labelledby="pills-tab">
+                                require 'net/http' <br>
+                                message = URI::encode('Hi, this is a test message') <br>
+                                mobileno = '91903xxxxxxxx' <br>
+                                apikey = '65ats54oxxxxxxxxxxxxxxxxxxxx' <br>
+                                senderid = 'SEDEMO' <br>
+                                url = URI.parse(baseurl+'&amp;sender='+senderid+'&amp;to='+mobileno+'&amp;message='+message) <br>
+                                baseurl = 'http://web.springedge.com/api/web/send/?apikey='+apikey <br>
+                                res = Net::HTTP.start(url.host, url.port) {|http| <br>
+                                req = Net::HTTP::Get.new(url.to_s) <br>
+                                } <br>
+                                http.request(req) <br>
+                                puts res.body <br>
+                            </div>
+
+                            <div class="tab-pane fade p-3" id="rubyy" role="tabpanel" aria-labelledby="pills-tab">
+                                message=URLEncoder.encode('Hi this is a test message', "UTF-8"); <br>
+                                baseurl = "http://web.springedge.com/api/web/send/?apikey=65axxxxxxxxxxxxx"; <br>
+                                                      
+                                URL url = new URL(baseurl+"&amp;sender=SEDEMO&amp;to=919035xxxxxx&amp;message=Test+message"); <br>
+                                                      
+                                HttpURLConnection con = (HttpURLConnection) url.openConnection(); <br>
+                                con.setRequestMethod("GET"); <br>
+                                con.setDoOutput(true); <br>
+                                con.getOutputStream(); <br>
+                                con.getInputStream(); <br>
+                                BufferedReader rd; <br>
+                            </div>
+
+                            <div class="tab-pane fade p-3" id="Java" role="tabpanel" aria-labelledby="pills-tab">
+                                import requests <br>
+                                <br>
+                                message = 'Hi+this+is+a+test+message'<br>
+                                mobileno= '919035xxxxxx' <br>
+                                sender = 'SEDEMO' <br>
+                                apikey = '65ats54oxxxxxxxxxxxxxxxxxxxx' <br>
+                                <br>
+                                baseurl = 'http://web.springedge.com/api/web/send/?apikey='+apikey <br>
+                                url= baseurl+'&sender='+sender+'&to='+mobileno+'&message='+message+'&format=json' <br>
+                                response = requests.get(url) <br>
+                                <br>
+                                print('Response:', response, 'request.') <br>
+                            </div>
+
+                            <div class="tab-pane fade p-3" id="golang" role="tabpanel" aria-labelledby="pills-tab">
+                                package main <br>
+                                import ( "net/http" "net/url" "fmt" "strings" ) <br>
+                                func main() { <br>
+                                v := url.Values{} <br>
+                                v.Set("to","919035xxxx") <br>
+                                v.Set("apikey","API_KEY_HERE") <br>
+                                v.Set("sender","SEDEMO") <br>
+                                v.Set("message","Hello, this is a test sms") <br>
+                                rb := *strings.NewReader(v.Encode()) <br>
+                                client := &amp;http.Client{} <br>
+                                req, _ := http.NewRequest("POST", "http://web.springedge.com/api/web/send/", &amp;rb) <br>
+                                resp, _ := client.Do(req) <br>
+                                } <br>
+                            </div>
+
+                            <div class="tab-pane fade p-3" id="nodejs" role="tabpanel" aria-labelledby="pills-tab">
+                                npm install springedge <br>
+                                var springedge = require('springedge'); <br>
+                                var params = { <br>
+                                'sender': 'SEDEMO', 'apikey': 'API_KEY_HERE', 'to': [ '9190xxxxxxxx'], <br>
+                                'message': 'Hi, this is a test message', 'format': 'json' }; <br>
+                                springedge.messages.send(params, 5000, function (err, response) { <br>
+                                if (err) { <br>
+                                return console.log(err); <br>
+                                } <br>
+                                console.log(response); <br>
+                                }); <br>
+                            </div>
+                          </div> 
                     </div>
                 </div>
                 

@@ -230,11 +230,11 @@ textarea {
 
 .input-form:focus{
   
-  border-style: none;
-  outline: 2px solid rgba(218, 111, 41, 0.6);
-  transition: 10ms ease-in;
-  outline-offset: 1.1px;
-  box-shadow: none;
+  border-style: none !important;
+  outline: 2px solid rgba(218, 111, 41, 0.6) !important;
+  transition: 10ms ease-in !important;
+  outline-offset: 1.1px !important;
+  box-shadow: none !important;
 }
 
 

@@ -251,6 +251,11 @@ textarea {
   box-shadow: none;
 }
 
+#service-card:hover{
+  color: #da6f29;
+  transition: color 200ms linear ;
+}
+
 /*! `Custom` Bootstrap 5 theme */@import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css);/*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

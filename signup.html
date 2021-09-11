@@ -57,25 +57,25 @@
                         <form method="POST" action="" id="signupform">
                             <div class="form ">
                                 <div class="row ">
-                                    <div class="col ">
+                                    <div class="col-md ">
                                         <label id="formfont">Name</label><br>
-                                        <input class="form-control input-form" name="lastname" placeholder="First and Last Name"
+                                        <input id="code-country" class="form-control input-form" name="lastname" placeholder="First and Last Name"
                                             type="text" required />
                                     </div>
 
                                 </div>
                                 <div class="row">
-                                    <div class=" col-lg-12">
+                                    <div class=" col-md">
                                         <label id="formfont">E-mail</label>
-                                        <input class="form-control input-form" name="lastname" placeholder="E-mail *"
+                                        <input id="code-country" class="form-control input-form" name="lastname" placeholder="E-mail *"
                                             type="text" required />
                                     </div>
                                 </div>
 
                                 <div class="row ">
-                                    <div class="col-md-5  mt-3">
+                                    <div class=" col-md-5  mt-3 ">
                                         <label  id="formfont">Country-Code</label>
-                                        <select class="form-select btn-lg dropdown-toggle input-form dropdown-toggle-split ">
+                                        <select id="code-country" class=" form-select btn-lg dropdown-toggle input-form dropdown-toggle-split mt-1 " >
                                             <option selected>Enter code</option>
                                             <option data-countryCode="AI" value="1264">Anguilla (+1264)</option>
                                             <option data-countryCode="DZ" value="213">Algeria (+213)</option>
@@ -317,21 +317,22 @@
                                             <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
                                         </select>
                                     </div>
-                                    <div class="col-md-6 mt-3">
+                                    <div class="col-md-6 mt-3 ">
                                         <label id="formfont">Mobile Number</label>
-                                        <input class="form-control input-form mt-0" name="lastname"
+                                        <input id="code-country" class="form-control input-form mt-1" name="lastname"
                                             placeholder="Your mobile number *" type="text" required />
                                     </div>
                                 </div>
 
 
-                                <div class="col-md-4  mt-3">
-                                    <label id="formfont">Enter OTP</label>
-                                    <input class="form-control input-form mt-0" name="lastname"
-                                            placeholder="OTP *" type="password" required />
-                                </div>
                                 <div class="row">
+                                    <div class=" col-md">
+                                        <label id="formfont">Enter OTP</label>
+                                        <input id="code-country" class="form-control input-form" name="lastname" placeholder="OTP *"
+                                            type="text" required />
+                                    </div>
                                 </div>
+                                
                             </div>
                             <div class="container pt-3 d-flex justify-content-center ">
                                 <div class="btn-lg btn-secondary" id="lastb">Sign Up</div>

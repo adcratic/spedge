@@ -253,7 +253,7 @@ textarea {
 
 #service-card:hover{
   color: #da6f29;
-  transition: color 200ms linear ;
+  transition: color 200ms linear;
 }
 
 @media (max-width: 480px) {

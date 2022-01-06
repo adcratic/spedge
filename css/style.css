@@ -136,7 +136,7 @@ textarea {
 }*/ /* contact page css completed */
 
 #spedge-footer {
-  background-color: #da6f29;
+  background-color: #3F3D56;
 }
 
 messaging-btn {
@@ -8566,9 +8566,16 @@ html {
   font-size: 14px;
   margin-bottom: 0;
 }
-.featured .icon-box:hover {
+/* .featured .icon-box:hover {
   background: #e96b56;
 }
 .featured .icon-box:hover i, .featured .icon-box:hover h3 a, .featured .icon-box:hover p {
   color: #fff;
+} */
+#explore{
+  text-decoration: none;
+  color: #00AA8A;
+}
+#explore:hover{
+  text-decoration: underline;
 }

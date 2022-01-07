@@ -136,7 +136,7 @@ textarea {
 }*/ /* contact page css completed */
 
 #spedge-footer {
-  background-color: #3F3D56;
+  background-color: #ff7e61;
 }
 
 messaging-btn {
@@ -8530,9 +8530,9 @@ html {
   }
 }
 
-# Featured
---------------------------------------------------------------*/
-.featured {
+#Featured
+  --------------------------------------------------------------*/
+  .featured {
   position: relative;
   z-index: 2;
 }
@@ -8572,10 +8572,10 @@ html {
 .featured .icon-box:hover i, .featured .icon-box:hover h3 a, .featured .icon-box:hover p {
   color: #fff;
 } */
-#explore{
+#explore {
   text-decoration: none;
-  color: #00AA8A;
+  color: #00aa8a;
 }
-#explore:hover{
+#explore:hover {
   text-decoration: underline;
 }

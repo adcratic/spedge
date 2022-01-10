@@ -159,7 +159,9 @@ textarea {
 #spedge-footer {
   background-color: #da6f29;
 }
-
+.footerLinks{
+  color: whitesmoke !important;
+}
 messaging-btn {
   background-color: #da6f29;
 }

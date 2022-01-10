@@ -18,8 +18,7 @@ nav img {
   color: #242931;
 }
 #navbarNavAltMarkup a:hover {
-  color: #ff7e61;
-  
+  color: #da6f29;
 }
 #button a:hover {
   color: #00aa8a;
@@ -37,7 +36,7 @@ img.displayed {
   text-align: center;
 }
 #lastb {
-  background-color: #ff7e61;
+  background-color: #da6f29;
   border: none;
 }
 #lastb:hover {
@@ -66,7 +65,7 @@ img.displayed {
 }
 .subheading {
   letter-spacing: 0.2rem;
-  color: #ff7e61;
+  color: #da6f29;
   opacity: 1;
 }
 .subtext {
@@ -83,7 +82,7 @@ img.displayed {
 }
 #btn1 {
   color: #fff;
-  background-color: #ff7e61;
+  background-color: #da6f29;
   border: none;
 }
 #btn2 {
@@ -142,7 +141,7 @@ textarea {
   padding-left: 3%;
 }
 #lbtn {
-  background-color: #ff7e61;
+  background-color: #da6f29;
   border: none;
 }
 #lbtn:hover {
@@ -158,11 +157,11 @@ textarea {
 }*/ /* contact page css completed */
 
 #spedge-footer {
-  background-color: #ff7e61;
+  background-color: #da6f29;
 }
 
 messaging-btn {
-  background-color: #ff7e61;
+  background-color: #da6f29;
 }
 .voice-btn {
   background-color: #21e031;
@@ -185,7 +184,7 @@ messaging-btn {
 }
 
 .chl {
-  box-shadow: 0px 2px 4px #ff7e61;
+  box-shadow: 0px 2px 4px #da6f29;
 }
 
 .displayed {

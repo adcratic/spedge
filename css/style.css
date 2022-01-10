@@ -1,6 +1,12 @@
 body {
   padding-top: 120px;
 }
+.primaryColor{
+  color: #da6f29 !important;
+}
+.secondaryColor{
+  color: #00AA8A;
+}
 #signup-body {
   padding-top: 70px !important;
 }
@@ -13,6 +19,7 @@ nav img {
 }
 #navbarNavAltMarkup a:hover {
   color: #ff7e61;
+  
 }
 #button a:hover {
   color: #00aa8a;
@@ -35,6 +42,21 @@ img.displayed {
 }
 #lastb:hover {
   background-color: #00aa8a;
+}
+.navSignBtns{
+  background-color:#fff !important;
+}
+.navSignBtns:hover{
+  color: whitesmoke !important;
+  border: none;
+  background-color: #00aa8a !important;
+
+}
+.fontBig{
+  font: 50px/52px Questrial;
+}
+.fontMed{
+  font: 19px/20px Questrial;
 }
 /* company page css */
 .lead {

@@ -1,6 +1,8 @@
 body {
   padding-top: 120px;
+  font-family: Questrial;
 }
+
 .primaryColor{
   color: #da6f29 !important;
 }
@@ -10,7 +12,17 @@ body {
 #signup-body {
   padding-top: 70px !important;
 }
-
+mystyle {  
+  background: #C3FFA5;  
+  border: solid 1px #19A347;  
+  color: #191919;  
+  display: block;  
+  font-family: monospace;  
+  font-size: 12px;  
+  margin: 8px;  
+  padding: 4px;  
+  white-space: pre;  
+}
 nav img {
   width: 200px;
 }
@@ -2862,6 +2874,9 @@ fieldset:disabled .btn {
 }
 .tab-content > .active {
   display: block;
+}
+.tab-navbar{
+  background-color: #4D4D4D;
 }
 .navbar {
   position: relative;

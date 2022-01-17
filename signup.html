@@ -52,7 +52,7 @@
 
             <div class="col">
                 <div class=" mt-5 border shadow rounded p-3 mx-md-4">
-                    <div class="h5 mx-4">Create your account</div>
+                    <div class="h5 d-flex justify-content-center">Create your account</div>
                     <div class="container mt-5">
                         <form method="POST" action="" id="signupform">
                             <div class="form ">
@@ -291,7 +291,8 @@
                                             <option data-countryCode="TM" value="7">Turkmenistan (+7)</option>
                                             <option data-countryCode="TM" value="993">Turkmenistan (+993)</option>
                                             <option data-countryCode="TC" value="1649">Turks &amp; Caicos Islands
-                                                (+1649)</option>
+                                                (+1649)
+                                            </option>
                                             <option data-countryCode="TV" value="688">Tuvalu (+688)</option>
                                             <option data-countryCode="UG" value="256">Uganda (+256)</option>
                                             <option data-countryCode="GB" value="44">UK (+44)</option>
@@ -306,7 +307,8 @@
                                             <option data-countryCode="VE" value="58">Venezuela (+58)</option>
                                             <option data-countryCode="VN" value="84">Vietnam (+84)</option>
                                             <option data-countryCode="VG" value="84">Virgin Islands - British
-                                                (+1284)</option>
+                                                (+1284)
+                                            </option>
                                             <option data-countryCode="VI" value="84">Virgin Islands - US (+1340)
                                             </option>
                                             <option data-countryCode="WF" value="681">Wallis &amp; Futuna (+681)
@@ -325,16 +327,22 @@
                                 </div>
 
 
-                                <div class="row">
-                                    <div class=" col-md">
+                                <div class="row ">
+                                    <div class=" col-md ">
                                         <label id="formfont">Enter OTP</label>
-                                        <input id="code-country" class="form-control input-form" name="lastname" placeholder="OTP *"
+                                        <input style="width: 100%;" id="code-country" class="form-control input-form" name="lastname" placeholder="OTP *"
                                             type="text" required />
+                                    </div>
+                                    <div class="col-md">
+                                        <div class=" mt-1 d-flex justify-content-start px-lg-5 px-sm-1">
+                                            <div class="btn-lg btn-secondary mt-4">Get OTP</div>
+                                        </div>
                                     </div>
                                 </div>
                                 
-                            </div>
-                            <div class="container pt-3 d-flex justify-content-center ">
+                                
+                            </div><br>
+                            <div class="container pt-3 d-flex justify-content-center">
                                 <div class="btn-lg btn-secondary" id="lastb">Sign Up</div>
                             </div>
 

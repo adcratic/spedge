@@ -2829,7 +2829,7 @@ fieldset:disabled .btn {
   isolation: isolate;
 }
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #00AA8A;
   background-color: transparent;
   border-color: transparent;
 }
@@ -2852,7 +2852,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #da6f29;
+  background-color: #000000;
 }
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
